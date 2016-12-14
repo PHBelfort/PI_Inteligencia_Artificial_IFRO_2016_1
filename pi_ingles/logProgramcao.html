@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!--
+        Projeto Integrador apresentado como forma de atividade Avaliativa.
+        Integrantes: Felipe Belforte, Franklin Ribeiro, Paulo Belfort, Tauane Santos
+-->
+<html lang="pt-BR">
+    <head>
+        <title>Lógica De Programação</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/gallery.prefixed.css">
+        <link rel="stylesheet" href="./css/gallery.theme.css">
+    </head>
+    <body>    
+        <div id="container">
+            <div class="idioma">
+                <a href="logProgramcao.html"><img src="images/iconeInglaterra.png" alt="English" border="0" align="absbottom" style="cursor: pointer;margin-right:13px" title="English" width="24" height="32"/></a>
+                <a href="../logProgramcao.html"><img src="images/iconeBrasil.png" alt="Portuguese" border="0" align="absbottom" align="absbottom" style="cursor: pointer;margin-right:13px" title="Portuguese" width="24" height="32"/></a>
+            </div>
+            <!-- Banner -->
+            <div class="slider gallery autoplay items-3">
+                <div id="item-1" class="control-operator"></div>
+                <div id="item-2" class="control-operator"></div>
+                <div id="item-3" class="control-operator"></div>
+
+                <figure class="item">
+                    <img src="images/ia2.jpg" border="0" alt="imagem" class="imag" />
+                </figure>
+
+                <figure class="item">
+                    <img src="images/ia1.png" border="0" alt="imagem" class="imag" />
+                </figure>
+
+                <figure class="item">
+                    <img src="images/ia3.jpg" border="0" alt="imagem" class="imag"/>
+                </figure>
+
+                <div class="controls">
+                    <a href="#item-1" class="control-button">•</a>
+                    <a href="#item-2" class="control-button">•</a>
+                    <a href="#item-3" class="control-button">•</a>
+                </div>                
+            </div>
+            <!--Banner-->
+            <!--Novo menu começa aqui-->       
+            <div id="mainnav"> 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Artificial Intelligence</a>
+                        <ul>
+                            <li><a href="fala.html">Talk</a></li>
+                            <li><a href="planejamento.html">Planning</a></li>
+                            <li><a href="sistemasPericiais.html">Expert Systems</a></li>
+                            <li><a href="computacaoCognitiva.html">Cognitive Computing</a></li>
+                            <li><a href="iaEducacao.html">Artificial Intelligence in education</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Project Integrator</a>
+                        <ul>
+                            <li><a href="introInformatica.html" target="_self">Introduction to Informatics</a></li>
+                            <li><a href="portInstrumental.html" target="_self">Instrumental Portuguese</a></li>
+                            <li><a href="ingInstrumental.html" target="_self">Instrumental English</a></li>
+                            <li><a href="etProfCidadania.html" target="_self">Professional Ethics and Citizenship</a></li>
+                            <li><a href="arqComputadores.html" target="_self">Computer Architecture</a></li>
+                            <li><a href="sistOperacionais.html" target="_self">Operating Systems</a></li>
+                            <li><a href="logProgramcao.html" target="_self">Programming logic</a></li>
+                            <li><a href="fundDesenWeb.html" target="_self">Fundamentals of Web Development</a> </li>               
+                        </ul>
+                    </li>
+                    <li><a href="sobreNos.html">About Us</a></li>
+                </ul> 
+            </div>      				
+            <div id="conteudo">
+                </br>
+                </br>
+                <h1 class="cor">Programming logic</h1>
+                </br>
+                </br>
+                <p class="recuo">
+                    What is programming logic? Is the technique of chain thoughts.</p>
+				<p class="recuo">	
+				    We use a logical series of steps to achieve a given purpose. Call, formally, this sequence Algorithm logic. 
+					Outside of computing, a classic example of algorithm is the cake recipe. In the recipe, have the step by step,
+					the right measures and the proper ingredients for a meal, all in detail. In programming is no different,
+					with respect to the algorithm. Knowing the purposes which will tend the program, are described step by step, 
+					all in a clear, concise, objective, and even logic.
+                        </br></br>
+                    
+                    Some names of Famous Web developers from Brazil:</br>
+                    <strong>Maurício Samy Silva - Majour</strong>; </br>
+                    <strong>Gustavo Guanabara Fiuza da Silva - Gustavo Guanabara</strong>.
+                </p>
+                <br>
+                <h4>Algorithms in Portuguese Structured - Portugol</h4>
+                <br>
+                <p>
+                    <strong>Example 1: </strong>"Algorithm that reads three values to the sides of a triangle"
+                </p><br>
+                <p><span class="palreser1">algoritmo</span> <span class="message">"checkTriangle"</span><br>
+                    <span class="comment">//Write an algorithm that reads three values for sides of</span><br>
+                    <span class="comment">// one triangle.</span><br>
+                    <span class="comment">//The algorithm should check if the triangle is equilateral</span> <br>
+                    <span class="comment">//(all equal sides),</span><br>
+                    <span class="comment">//isosceles (two equal sides) or scalene (all different sides).</span><br>				
+                    <span class="palreser1">var</span><br>
+                    side1, side2, side3: <span class="real">real</span><br>
+                    validade: <span class="real">logico</span><br>
+                    <span class="palreser1">inicio</span><br>
+                    <span class="palreser2">escreva</span> (<span class="message">"Insert the 1 side of the triangle: "</span>)<br>
+                    <span class="palreser2">leia</span> (lado1)<br>
+                    <span class="palreser2">escreva</span> (<span class="message">"Insert the 2 side of the triangle:"</span>)<br>
+                    <span class="palreser2">leia</span> (lado2)<br>
+                    <span class="palreser2">escreva</span> (<span class="message">"Insert the 3 side of the triangle: "</span>)<br>
+                    <span class="palreser2">leia</span> (lado3)<br>				
+                    <span class="palreser2">se</span> (lado1 < (lado2 + lado3)) <span class="palreser2">e</span> (lado2 < (lado1 + lado3)) <span class="palreser2">e</span> (lado3 < (lado1 + lado2)) <span class="palreser2">entao</span><br>
+                    validade <- <span class="message">VERDADEIRO</span><br>
+                    <span class="palreser2">senao</span><br>
+                    validade <- <span class="message">FALSO</span><br>
+                    <span class="palreser2">fimse</span><br>				
+                    <span class="palreser2">se</span> (validade = <span class="message">VERDADEIRO</span>) <span class="palreser2">entao</span><br>
+                    <span class="palreser2">se</span> (lado1 = lado2) <span class="palreser2">e</span> (lado1 = lado3) <span class="palreser2">e</span> (lado2 = lado3) <span class="palreser2">entao</span><br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreva</span> (<span class="message">"Equilateral triangle"</span>)<br>
+                    <span class="palreser2">fimse</span><br>
+                    <span class="palreser2">se</span> ((lado1 = lado2) <span class="palreser2">e</span> (lado1 <> lado3)) <span class="palreser2">xou</span> ((lado1 = lado3) <span class="palreser2">e</span> (lado1 <> lado2)) <span class="palreser2">xou</span> ((lado2 = lado3) <span class="palreser2">e</span> (lado2 <> lado1)) <span class="palreser2">entao</span><br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreva</span> (<span class="message">"Isosceles triangle"</span>)<br>
+                    <span class="palreser2">fimse</span><br>
+                    <span class="palreser2">se</span> (lado1 <> lado2) <span class="palreser2">e</span> (lado1 <> lado3) <span class="palreser2">e</span> (lado2 <> lado3) <span class="palreser2">entao</span><br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreva</span> (<span class="message">"Scalene triangle"</span>)<br>
+                    <span class="palreser2">fimse</span><br>
+                    <span class="palreser2">senao</span><br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreva</span> (<span class="message">"It is not a triangle"</span>)<br>
+                    <span class="palreser2">fimse</span><br>
+                    <span class="palreser1">fimalgoritmo</span>
+                </p><br>
+
+                <p>
+                    <strong>Example 2: </strong>"Algorithm that calculates the average of exercises"
+                </p><br>
+                <p>
+                    <span class="palreser1">algoritmo</span> <span class="message">"média"</span><br>
+                    <span class="comment">// Função :</span><br>
+                    <span class="comment">// Autor :</span><br>
+                    <span class="comment">// Data : 15/06/2016</span><br>
+                    <span class="comment">// Seção de Declarações</span><br>
+                    <span class="palreser1">funcao</span> media:<span class="real">real</span><br>
+                    <span class="palreser1">var</span><br>
+                    resposta:<span class="real">real</span><br>
+                    <span class="palreser1">inicio</span><br>
+                    resposta <- (n1+ n2*<span class="message">2</span>+n3*<span class="message">3</span>+exercicios) / <span class="message">7</span><br>
+                    retorne resposta<br>
+                    <span class="palreser1">fimfuncao</span><br>
+                    <span class="palreser1">var</span><br>
+                    n1, n2, n3,res,exercicios: <span class="real">real</span><br>
+                    i: <span class="real">inteiro</span><br>
+                    qtdAluno:<span class="real">inteiro</span><br>
+                    nome: <span class="real">literal</span><br>
+                    <span class="palreser1">inicio</span><br>
+                    <span class="palreser2">Escreval</span> (<span class="message">"Digite Quantidade de Alunos:"</span>)<br>
+                    <span class="palreser2">Leia</span> (qtdAluno)<br>
+                    para i de <span class="message">1</span> ate qtdAluno Faca<br>
+                    <span class="palreser2">Escreval</span> (<span class="message">"Digite o nome do "</span>, i, <span class="message">" aluno: "</span>)<br>
+                    <span class="palreser2">Leia</span> (nome)<br>
+                    <span class="palreser2">Escreval</span> (<span class="message">"Digite a primeira nota"</span>)<br>
+                    <span class="palreser2">Leia</span> (n1)<br>
+                    <span class="palreser2">Escreval</span> (<span class="message">"Digite a segunda nota"</span>)<br>
+                    <span class="palreser2">Leia</span> (n2)<br>
+                    <span class="palreser2">Escreval</span> (<span class="message">"Digite a terceira nota"</span>)<br>
+                    <span class="palreser2">Leia</span> (n3)<br>
+                    <span class="palreser2">Escreval</span>(<span class="message">"Digite a média dos exercícios:"</span>)<br>
+                    <span class="palreser2">Leia</span> (exercicios)<br>
+
+                    res <- media<br>
+
+                    <span class="palreser2">Escreval</span> (<span class="message">"O aluno "</span>, nome, <span class="message">" Obteve a média "</span>, res:<span class="message">2</span>)<br>
+
+                    <span class="palreser2">se</span> ((media >= 9)<span class="palreser2">e</span>(media < 10))<span class="palreser2">entao</span><br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreval</span>(<span class="message">"Conceito A"</span>)<br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreval</span>(<span class="message">"Muito Bom."</span>)<br>
+                    <span class="palreser2">senao</span><br>
+                    <span class="palreser2">se</span> ((media >= 7.5) <span class="palreser2">e</span> (media < 9))<span class="palreser2">entao</span><br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreval</span>(<span class="message">"Conceito B"</span>)<br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreval</span>(<span class="message">"Não desanime."</span>)<br>
+                    <span class="palreser2">senao</span><br>
+                    <span class="palreser2">se</span> ((media >= 6) <span class="palreser2">e</span> (media < 7.5))<span class="palreser2">entao</span><br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreval</span>(<span class="message">"Conceito C"</span>)<br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreval</span>(<span class="message">"Estude mais"</span>)<br>
+                    <span class="palreser2">senao</span><br>
+                    <span class="palreser2">se</span> (media < 6)<span class="palreser2">entao</span><br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreval</span>(<span class="message">"Conceito D"</span>)<br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreval</span>(<span class="message">"Estude mais ainda"</span>)<br>
+                    <span class="palreser2">senao</span><br>
+                    <span class="palreser2">se</span> (media = 10)<span class="palreser2">entao</span><br>
+                    &nbsp;&nbsp;&nbsp;<span class="palreser2">escreval</span>(<span class="message">"Excelente"</span>)<br>
+                    <span class="palreser2">fimse</span><br>
+                    <span class="palreser2">fimse</span><br>
+                    <span class="palreser2">fimse</span><br>
+                    <span class="palreser2">fimse</span><br>
+                    <span class="palreser2">fimse</span><br>
+                    <span class="palreser2">fimpara</span><br>
+                    <span class="palreser1">fimalgoritmo</span><br>
+                </p>
+            </div> 				
+            <div id="imagemLat">
+
+                <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/ifrondonia" data-width="250" 
+                     data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" 
+                     data-show-posts="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=328478730664115&amp;container_width=280&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fifrondonia&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=true&amp;small_header=false&amp;width=250">
+                    <span style="vertical-align: bottom; width: 250px; height: 502px;"><iframe name="f113ab715f07f88" width="400px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.5/plugins/page.php?adapt_container_width=true&amp;app_id=328478730664115&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Df24898eb9ff5b2%26domain%3Dprojetointegradorifrozn.com.br%26origin%3Dhttp%253A%252F%252Fprojetointegradorifrozn.com.br%252Ff2b99fe3a5abb8c%26relation%3Dparent.parent&amp;container_width=280&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fifrondonia&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;show_posts=true&amp;small_header=false&amp;width=250" 
+                                                                                               style="border: none; visibility: visible; width: 250px; height: 502px;" class=""></iframe></span>
+                </div></br></br>								
+                <img src="images/cartV.gif" width="250px" height="160px"></br></br> 
+                <div id="area">
+                    <div id="area">
+                    <form id="formulario" autocomplete="off">
+                        <fieldset>
+                            <legend>Contact Us!</legend>
+                            <label>Name:<input class="campo_nome" type="text" placeholder="Name" /></label><br>
+                            <label>Email:<input class="campo_email" type="e-mail" placeholder="Email" /></label><br>
+                            <label class="labmensagem">Message: <textarea placeholder="Write here your comment ..."></textarea></label><br>
+                            <input type="button" class="botao" value="Send" />
+                        </fieldset>
+                    </form>
+                </div>
+                </div>
+
+            </div>
+            <div id="rodape">
+                <p><a href="sobreNos.html">© Copyright 2016 - Felipe Belforte - Franklin Brito - Paulo Belfort - Tauane Santos - Rejane Costa</a></p>
+            </div>		
+        </div>
+    </body>
+</html>
+
+
